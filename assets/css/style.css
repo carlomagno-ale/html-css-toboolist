@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
 
 :root {
@@ -32,7 +32,7 @@ body {
 
     font-family: "Roboto", serif;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
     vertical-align: middle;
     display: inline;
@@ -96,22 +96,25 @@ hr {
     margin-top: 0.8rem;
     border: solid 1px;
     border-color: var(--background);
- 
+
 
 }
 
 .no-symbol {
     list-style-type: none;
     font-family: "Roboto", serif;
-    margin-top: 1rem;
-    padding-left: 2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    padding-left: 2.1rem;
+    font-size: 17px;s
 }
 
 .sub-li {
 
     list-style: none;
     font-size: 14px;
-
+    font-weight: 400;
+    
 }
 
 .editoriale {
@@ -121,11 +124,10 @@ hr {
     border-radius: 1rem;
     border: none;
     font-family: "Roboto", serif;
+    font-weight: 400;
     font-size: 11px;
     color: white;
     text-align: center;
     padding: 0.6rem;
     margin-left: 0.5rem;
-
-
 }
