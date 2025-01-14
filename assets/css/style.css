@@ -1,0 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+
+
+:root {
+
+    --background: #f6f8f9;
+    --task-editorial: #47adf1;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+}
+
+#header {
+
+    background-color: white;
+    height: 130px;
+}
+
+#logo {
+
+    height: 95px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.logo-name {
+
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 4rem;
+}
