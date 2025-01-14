@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--task-editorial);
 }
 
 #header {
@@ -27,14 +27,25 @@ body {
 #logo {
 
     height: 95px;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    display: inline;
+    vertical-align: middle;
+    padding-right: 0,5rem;
 }
 
-.logo-name {
+#logo-name {
 
     font-family: "Roboto", serif;
-    font-weight: 600;
     font-size: 4rem;
+    font-weight: 700;
+    font-style: normal;
+    vertical-align: middle;
+    display: inline;
+
+}
+
+.logo-complete {
+
+    padding-left: 1rem;
+    padding-top: 1rem;
 
 }
