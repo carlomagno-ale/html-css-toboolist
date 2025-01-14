@@ -25,7 +25,7 @@ body {
 
 #logo {
     vertical-align: middle;
-    padding-right: 0, 5rem;
+
 }
 
 #logo-name {
@@ -106,7 +106,7 @@ hr {
     font-weight: 700;
     margin-top: 2.5rem;
     padding-left: 2.1rem;
-    font-size: 17px;s
+    font-size: 17px;
 }
 
 .sub-li {
