@@ -100,7 +100,32 @@ hr {
 
 }
 
-.list-title {
-    
-    list-style-type: "&#x25B2;"
+.no-symbol {
+    list-style-type: none;
+    font-family: "Roboto", serif;
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.sub-li {
+
+    list-style: none;
+    font-size: 14px;
+
+}
+
+.editoriale {
+
+    display: inline-block;
+    background-color: var(--task-editorial);
+    border-radius: 1rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+
+
 }
