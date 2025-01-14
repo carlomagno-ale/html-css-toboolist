@@ -6,6 +6,11 @@
     --background: #eeee;
     --task-editorial: #47adf1;
     --button-off: #d0d5d9;
+    --label-q1-goals: #9c72e4;
+    --recruiting: #64c0a9;
+    --mobile: #f29e33;
+    --website: #d863a1;
+    --sales: #b0c926;
 }
 
 * {
@@ -118,23 +123,6 @@ hr {
     
 }
 
-.editoriale {
-
-    display: inline-block;
-    background-color: var(--task-editorial);
-    border-radius: 1rem;
-    border: none;
-    font-family: "Roboto", serif;
-    font-weight: 300;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    padding: 0.6rem;
-    margin-left: 0.5rem;
-    margin-top: 9px;
-
-}
-
 .triangle-bullet {
 
     font-size: 10px;
@@ -175,3 +163,115 @@ hr {
 
 }
 
+ /*label*/
+
+.editoriale {
+
+    display: inline-block;
+    background-color: var(--task-editorial);
+    border-radius: 0.7rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
+
+.q1-goals {
+
+    display: inline-block;
+    background-color: var(--label-q1-goals);
+    border-radius: 0.7rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
+
+.recruiting {
+
+    display: inline-block;
+    background-color: var(--recruiting);
+    border-radius: 0.7rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
+
+.mobile {
+
+    display: inline-block;
+    background-color: var(--mobile);
+    border-radius: 0.7rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
+
+.null {
+
+    display: inline-block;
+    padding-top: 1.3rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
+
+.website {
+
+    display: inline-block;
+    background-color: var(--website);
+    border-radius: 0.7rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
+
+.sales{
+
+    display: inline-block;
+    background-color: var(--sales);
+    border-radius: 0.7rem;
+    border: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 9px;
+
+}
